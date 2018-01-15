@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="textSizeHeader">24sp</dimen>
+    <dimen name="barSize">100dp</dimen>
+    <dimen name="spaceFromTop">30dp</dimen>
+</resources>

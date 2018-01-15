@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">KotlinDemo</string>
+
+    <!--buton name-->
+    <string name="service_demo">Service Demo</string>
+    <string name="retrofit_demo">Retrofit Demo</string>
+    <string name="realm_demo">Realm Demo</string>
+    <string name="send_broadcast">Send Intent</string>
+
+
+    <!--general strings-->
+    <string name="welcome"><![CDATA[Welcome to Kotlin<br>DEMO]]></string>
+    <string name="service_demo_text">send intent will start an intent service which will download an image and display once download is completed.</string>
+    <string name="image_url">IMAGE_URL</string>
+    <string name="image_url_link">https://www.freeimageslive.co.uk/files/images009/bay_dock.jpg</string>
+    <string name="function_not_implemented">Function Not Implemented</string>
+    <string name="something_went_wrong">Something Went Wrong - Network Issue</string>
+    <string name="fetching_json_feed">Fetching Json Feed</string>
+
+
+    <!--Intent Action-->
+    <string name="image_download_action">ACTION_DOWNLOAD_IMAGE</string>
+    <string name="image_download_complete">IMAGE_DOWNLOAD_COMPLETE</string>
+
+    <!--log strings-->
+    <string name="entering">Entering</string>
+    <string name="leaving">Leaving</string>
+</resources>

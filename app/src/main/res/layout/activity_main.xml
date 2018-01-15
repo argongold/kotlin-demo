@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/view_root"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/spaceFromTop"
+        >
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_horizontal"
+            android:text="@string/welcome"
+            style="@style/HeaderText"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="25dp"
+            android:layout_gravity="center">
+            <Button
+                android:id="@+id/bt_service_demo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/service_demo"
+                android:onClick="buttonPressAction"/>
+            <Button
+                android:id="@+id/bt_retrofit_demo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/retrofit_demo"
+                android:onClick="buttonPressAction"/>
+            <Button
+                android:id="@+id/bt_realm_demo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/realm_demo"
+                android:onClick="buttonPressAction"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</FrameLayout>
+
+
+

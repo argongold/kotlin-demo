@@ -1,0 +1,50 @@
+# Built bundle
+
+dist.zip
+
+# Mac ignores
+.DS_Store
+._.DS_Store
+._*
+.com.apple.timemachine.supported
+
+# Grunt ignores
+_SpecRunner.html
+.grunt
+
+# Node ignores
+lib-cov
+*.seed
+*.log
+*.csv
+*.dat
+*.out
+*.pid
+*.gz
+pids
+logs
+results
+npm-debug.log
+node_modules
+
+.sass-cache
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Generated ignores
+dist/
+reports/
+
+# android ignores
+/bin
+/gen
+project.properties
+
+# android studio ignores
+.gradle
+build/
+/.idea
+*.iml
+local.properties
